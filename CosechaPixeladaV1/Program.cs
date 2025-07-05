@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+
+using CosechaPixeladaV1.Core;
+using CosechaPixeladaV1.Scenes;
+
+Engine.Start(new GameManagerScene());
